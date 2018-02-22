@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/edtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Date"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/edtScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/edtCorrect"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="30dp"-->
+        <!--android:text="Correct"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/black"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/edtWrong"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="30dp"-->
+        <!--android:text="Wrong"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/black"/>-->
+
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Main"/>
+
+</LinearLayout>
+
+
+
+    <!--System.out.println("Date of test: " + resultEntity.getDate().toGMTString());-->
+    <!--System.out.println("Your score: " + resultEntity.getScore());-->
+    <!--System.out.println("Total number of questions: " + resultEntity.getTotal());-->
+    <!--System.out.println("Correct responses: " + resultEntity.getCorrect());-->
+    <!--System.out.println("Wrong responses: " + resultEntity.getWrong());-->

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/grey">
+
+    <TextView
+        android:text = "Register"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/edtFirstName"
+        android:ems="30"
+        android:hint = "First Name"
+        android:focusable = "true"
+        android:textColorHighlight = "@color/colorPrimaryDark"
+        android:textColorHint = "@color/grey"
+        android:layout_marginTop = "46dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:id="@+id/edtLastName"
+        android:layout_below="@+id/edtFirstName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtFirstName"
+        android:layout_alignEnd="@+id/edtFirstName"
+        android:textColorHighlight = "@color/colorPrimaryDark"
+        android:textColorHint = "@color/grey"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:id="@+id/edtCountry"
+        android:layout_below="@+id/edtLastName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtLastName"
+        android:layout_alignEnd="@+id/edtLastName"
+        android:textColorHighlight = "@color/colorPrimaryDark"
+        android:textColorHint = "@color/grey"
+        android:hint="Country" />
+
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/edtLogin"
+        android:hint = "Enter e-mail"
+        android:textColorHighlight = "@color/colorPrimaryDark"
+        android:textColorHint = "@color/grey"
+        android:layout_below="@id/edtCountry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtLastName"
+        android:layout_alignEnd="@+id/edtLastName"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtPassword"
+        android:layout_below="@+id/edtLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtLogin"
+        android:layout_alignEnd="@+id/edtLogin"
+        android:textColorHighlight = "@color/colorPrimaryDark"
+        android:textColorHint = "@color/grey"
+        android:hint="Password" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/buttonRegister"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textview"
+        android:layout_toStartOf="@+id/textview" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/buttonCancel"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textview"
+        android:layout_toEndOf="@+id/textview" />
+
+</RelativeLayout>
